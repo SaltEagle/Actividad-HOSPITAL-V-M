@@ -1,4 +1,4 @@
-package com.hospital_vm.cl.hospital.controller;
+package com.hospital_vm.cl.hospital.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -26,7 +26,7 @@ public class paciente {
     private String nombre;
 
     @Column(nullable = false  )
-    private String apellido;
+    private String apellidos;
 
     @Column(nullable = true )
     private Date fechaNacimiento;
